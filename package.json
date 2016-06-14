@@ -15,20 +15,12 @@
     "test:dev": "npm run test -- --watch",
     "deploy": "better-npm-run deploy",
     "deploy:dev": "better-npm-run deploy:dev",
-    "deploy:prod": "better-npm-run deploy:prod",
-    "codecov": "cat coverage/*/lcov.info | codecov"
+    "deploy:prod": "better-npm-run deploy:prod"
   },
   "betterScripts": {
     "compile": {
       "command": "babel-node bin/compile",
       "env": {
-        "DEBUG": "app:*"
-      }
-    },
-    "dev": {
-      "command": "nodemon --exec babel-node bin/server",
-      "env": {
-        "NODE_ENV": "development",
         "DEBUG": "app:*"
       }
     },
