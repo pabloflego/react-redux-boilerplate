@@ -1,6 +1,7 @@
 {
   "parser"  : "babel-eslint",
   "extends" : [
+    // http://standardjs.com/rules.html#javascript-standard-style
     "standard",
     "standard-react"
   ],
@@ -18,8 +19,11 @@
     "__BASENAME__" : false
   },
   "rules": {
+    // Enforce use of semi-colons
     "semi": ["error", "always"],
+    // Max length 120 chars
     "max-len": [2, 120, 2],
+    // Enforce consistent spacing around * operators in generator functions
     "generator-star-spacing": 0,
     "babel/generator-star-spacing": 1
   }
