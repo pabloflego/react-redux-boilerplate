@@ -269,7 +269,7 @@ if (!__DEV__) {
     const [first, ...rest] = loader.loaders;
     loader.loader = ExtractTextPlugin.extract(first, rest.join('!'));
     Reflect.deleteProperty(loader, 'loaders');
-  })
+  });
 
   webpackConfig.plugins.push(
     new ExtractTextPlugin('[name].[contenthash].css', {

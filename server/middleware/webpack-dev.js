@@ -25,7 +25,7 @@ export default function (compiler, publicPath) {
       setHeader: function () {
         ctx.set.apply(ctx, arguments);
       }
-    })
+    });
 
     if (hasNext) {
       await next();
