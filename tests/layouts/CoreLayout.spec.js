@@ -29,6 +29,6 @@ describe('(Layout) Core', function () {
 
   it('Should render as a <div>.', function () {
     console.log(_component);
-    expect(_component.type).to.equal('a');
+    expect(_component.type).to.equal('div');
   });
 });
