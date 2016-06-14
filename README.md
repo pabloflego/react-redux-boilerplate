@@ -30,7 +30,7 @@ The application structure presented in this boilerplate is **fractal**, where fu
 │   │   ├── components       # Application global components
 │   │   ├── containers       # Application global containers
 │   │   ├── constants        # Application global constants
-│   │   └── reducers.js      # Application global reducers
+│   │   └── reducers         # Application global reducers
 │   ├── layouts              # Components that dictate major page structure
 │   ├── static               # Static assets (not imported anywhere in source code)
 │   ├── styles               # Application-wide styles (generally settings)
