@@ -2,7 +2,7 @@ import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import CoreLayout from 'layouts/CoreLayout/CoreLayout';
 
-const shallowRender =  (component) => {
+const shallowRender = (component) => {
   const renderer = TestUtils.createRenderer();
   renderer.render(component);
   return renderer.getRenderOutput();
