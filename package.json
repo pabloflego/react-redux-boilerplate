@@ -69,7 +69,7 @@
   "author": "maxidela@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "history": "^3.0.0",
+    "history": "^2.0.0",
     "immutable": "^3.8.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",

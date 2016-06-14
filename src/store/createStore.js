@@ -37,7 +37,7 @@ export default (initialState = {}, history) => {
     module.hot.accept('./reducers', () => {
       const reducers = require('./reducers').default;
       store.replaceReducer(reducers);
-    })
+    });
   }
 
   return store;
