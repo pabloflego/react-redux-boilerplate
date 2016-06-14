@@ -9,6 +9,6 @@ export default function applyExpressMiddleware (fn, req, res) {
     };
     fn(req, res, function () {
       resolve(true);
-    })
+    });
   });
 }
